@@ -1,4 +1,4 @@
-```markdown
+
 # EC2 Instance Provisioning with Terraform 🚀
 
 This repository provides Terraform configurations designed to provision a single Amazon EC2 (Elastic Compute Cloud) instance. Leveraging Infrastructure as Code (IaC) principles, this setup ensures that your infrastructure deployments are repeatable, predictable, and fully version-controlled, facilitating seamless collaboration and consistent environments.
@@ -172,8 +172,8 @@ Remember to replace `/path/to/your/key.pem` with the actual path to your SSH pri
 
 To avoid incurring unnecessary AWS costs, it's good practice to destroy resources when they are no longer needed. You can remove all the AWS resources provisioned by this Terraform configuration by running the following command from the same directory:
 
+
 ```bash
 terraform destroy
 ```
 Terraform will display a plan of the resources it is about to destroy and ask for your confirmation. Type `yes` and press Enter to confirm the deletion of all managed resources.
-```
